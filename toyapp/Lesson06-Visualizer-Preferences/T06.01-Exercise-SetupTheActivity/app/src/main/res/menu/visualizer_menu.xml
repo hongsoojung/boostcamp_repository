@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_preference"
+        android:title="@string/setting_title"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <!--TODO In visualizer_menu.xml create a menu item with a single item. The id and title-->
+    <!--should be saved in strings.xml, it should never be shown as an action,-->
+    <!--// orderInCategory should be 100-->
+</menu>
